@@ -61,7 +61,3 @@ If you'd like to contribute to this project, please follow the standard GitHub w
 3. Make your changes and commit them.
 4. Push your changes to your fork.
 5. Create a pull request to the main repository.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
