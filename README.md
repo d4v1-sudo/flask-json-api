@@ -25,18 +25,24 @@ To get started with this repository, follow these steps:
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/your-username/flask-json-api.git
+  ```shell
+  git clone https://github.com/your-username/flask-json-api.git
+  ```
 
 2. Set up a virtual environment (recommended) and install the required packages:
 
-cd flask-json-api
-python -m venv venv
-source venv/bin/activate # On Windows, use: venv\Scripts\activate
-pip install -r requirements.txt
+  ```shell
+  cd flask-json-api
+  python3 -m venv venv
+  source venv/bin/activate # On Windows, use: venv\Scripts\activate
+  pip install -r requirements.txt
+  ```
 
 3. Start the Flask application:
 
-python3 app_flask.py
+  ```shell
+  python3 app_flask.py
+  ```
 
 The Flask application will run locally, and you can interact with it using the provided Python scripts (`get.py`, `env.py`, and `chat.py`).
 
