@@ -35,15 +35,15 @@ def receive_data():
 @app.route('/get/<key>', methods=['GET'])
 def get_data(key):
     try:
-        if key not in data_store:
+        if key in data_store:
+            value = data_store[key]
+            return jsonify({key: value})
+        else:
             raise NotFound(description=f'Key "{key}" not found')
-
-        value = data_store[key]
-        return jsonify({data_store})
     except NotFound as e:
-        return str(e), 404  # HTTP status code 404 for resource not found
+        return str(e), 404  # 404 code for resource not found
     except Exception as e:
-        return str(e), 500  # HTTP status code 500 for an internal server error
+        return str(e), 500  # 500 code for internal server error
 
 @app.route('/page', methods=['GET'])
 def show_page():
