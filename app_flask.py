@@ -39,7 +39,7 @@ def get_data(key):
             raise NotFound(description=f'Key "{key}" not found')
 
         value = data_store[key]
-        return jsonify({key: value})
+        return jsonify({data_store})
     except NotFound as e:
         return str(e), 404  # HTTP status code 404 for resource not found
     except Exception as e:
