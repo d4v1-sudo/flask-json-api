@@ -26,7 +26,7 @@ To get started with this repository, follow these steps:
 1. Clone the repository to your local machine:
 
   ```shell
-  git clone https://github.com/your-username/flask-json-api.git
+  https://github.com/d4v1-sudo/flask-json-api.git
   ```
 
 2. Set up a virtual environment (recommended) and install the required packages:
