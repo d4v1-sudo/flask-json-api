@@ -1,4 +1,4 @@
-# Flask JSON API Repository
+# 🌐🐍 - Flask JSON api using Python
 
 This repository contains a simple Flask application for creating an API that handles JSON data. It also includes three Python scripts for interacting with the API.
 
