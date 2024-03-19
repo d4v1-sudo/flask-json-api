@@ -68,4 +68,4 @@ If you'd like to contribute to this project, please follow the standard GitHub w
 4. Push your changes to your fork.
 5. Create a pull request to the main repository.
 
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Fflask-json-api"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Fflask-json-api&label=Thanks%20for%20dropping%20in&countColor=%23d9e3f0" /></a>
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Fflask-json-api"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Fflask-json-api&label=Thanks%20for%20dropping%20in&labelColor=%23000000&countColor=%23FFFFFF" /></a>
