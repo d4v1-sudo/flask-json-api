@@ -14,7 +14,7 @@ This repository contains a simple Flask application for creating an API that han
 
 This Flask application serves as a foundation for building an API that can handle JSON data. It provides endpoints for storing, retrieving, and interacting with JSON data. The application includes the following key components:
 
-- **`app.py`**: The main Flask application that defines API endpoints and data handling.
+- **`app_flask.py`**: The main Flask application that defines API endpoints and data handling.
 - **`get.py`**: A Python script for making GET requests to retrieve data from the API.
 - **`env.py`**: A Python script for making POST requests to send data to the API.
 - **`chat.py`**: A Python script for sending chat messages to the API.
